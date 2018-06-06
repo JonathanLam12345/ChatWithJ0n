@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView_messages"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="0.00"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:background="@color/yellow"
+        android:text=""/>
+
+
+    <LinearLayout
+        android:id="@+id/footer_messages"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_messages"
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_weight="0.09"
+        android:background="@color/white"
+        android:cacheColorHint="#00000000"
+        android:hint="address"
+        android:listSelector="@android:color/white"
+        android:transcriptMode="alwaysScroll"
+        />
+
+    <!-- <Space
+         android:id="@+id/space2"
+         android:layout_width="match_parent"
+         android:layout_height="56dp"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentStart="true"
+         android:background="@color/white"/>-->
+</LinearLayout>
